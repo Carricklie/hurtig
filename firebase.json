@@ -1,0 +1,7 @@
+{
+  "hosting": {
+    "public": "hurtigWeb",
+    "cleanUrls": true,
+    "trailingSlash": true
+  }
+}

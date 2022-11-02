@@ -1,0 +1,74 @@
+.bg-image {
+    background-size:cover;
+}
+.aboutus{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("./images/aboutuspicture.png");
+}
+.homepage{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("./images/homepage.png");
+}
+.logo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: unset;
+    font-size: 3rem;
+}
+.menus{
+    padding-top: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    color: white;
+    text-decoration: unset;
+    font-size: 1.5rem;
+}
+.activated{
+    font-weight:600;
+    
+}
+.icon{
+    padding-top: 0.8rem;
+    float: right;
+}
+h1{
+    line-height: 1.15;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 4.5rem;
+    padding-left: 1rem;
+    padding-top: 10%;
+}
+h2{
+    line-height: 1.15;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-left: 1rem;
+    padding-top: 13%;
+}
+.bold{
+    font-weight: bold;
+}
+@media screen and (min-width:992px) {
+    .sidepop{
+        visibility: collapse;
+    }
+    
+}
+@media screen and (max-width:991px) {
+    .bg-image{
+        background-size: auto;
+        background-position:top center;
+    }
+    .icon{
+        visibility: collapse;
+    }
+    .logo{
+        font-size: 2rem;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+}
