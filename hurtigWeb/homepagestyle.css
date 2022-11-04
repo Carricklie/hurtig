@@ -7,35 +7,62 @@
 .homepage{
     background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("./images/homepage.png");
 }
+.navbar-brand.abs
+    {
+        position: absolute;
+        width: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        padding-top: 4rem;
+    }
+
 .logo{
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;
     color: white;
     text-decoration: unset;
     font-size: 3rem;
+    height: 5.5rem;
 }
-.menus{
-    padding-top: 1.5rem;
+.loginBtn{
+    background: #FFFFFF;
+    border-radius: 0.3rem;
+    line-height: 1.1;
     font-family: 'Poppins', sans-serif;
-    font-weight:400;
-    color: white;
-    text-decoration: unset;
-    font-size: 1.5rem;
-}
-.activated{
-    font-weight:600;
-    
+    font-size: 0.8rem;
+    padding: 0.4rem;
+    width: 4rem;
+    border: none;
+    font-weight: 500;
 }
 .icon{
-    padding-top: 0.8rem;
-    float: right;
+    height: 2rem;
+    padding-top: 1.5rem;
+    text-decoration: unset;
+}
+.nav-item{
+    padding-left: 3rem;
+}
+.shipTrackBlock{
+    margin-top: 10rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 0.5rem;
+    background-color: #FFFFFF;
+    padding: 3rem;
+    height: fit-content;
+}
+.iconimg{
+    height: 2rem;
 }
 h1{
-    line-height: 1.15;
+    width: 100%;
+    line-height: 1.12;
+    text-align: center;
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 4.5rem;
+    font-weight: 600;
+    font-size: 3rem;
     padding-left: 1rem;
     padding-top: 10%;
 }
@@ -48,8 +75,42 @@ h2{
     padding-left: 1rem;
     padding-top: 13%;
 }
+h3{
+    line-height: 1.5;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+}
 .bold{
     font-weight: bold;
+}
+.inputTextbox{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    border-width: 2px;
+    border-color: black;
+}
+.textbox{
+    width: 100%;
+}
+.submitBtn{
+    font-family: 'Poppins', sans-serif;
+    width: fit-content;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: #010021;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.formTracking{
+    margin-top: 1rem;
+}
+.formContent{
+    display: table;
+}
+.formContent li {
+    display: table-cell;
+    padding: 2px;
 }
 @media screen and (min-width:992px) {
     .sidepop{
@@ -62,13 +123,57 @@ h2{
         background-size: auto;
         background-position:top center;
     }
-    .icon{
-        visibility: collapse;
-    }
     .logo{
         font-size: 2rem;
+        height: 3rem;
+    }
+    .navbar-brand.abs
+    {
+        padding-top: 2rem;
+    }
+    .icon{
+        padding-top: 1rem;
+    }
+    .iconimg{
+        height: 1.5rem;
     }
     h1{
         font-size: 2.5rem;
+    }
+    .nav-item{
+        padding-left: 1rem;
+    }
+    .loginBtn{
+        background: #FFFFFF;
+        border-radius: 0.3rem;
+        line-height: 0.8;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.8rem;
+        padding: 0.4rem;
+        width: 3.5rem;
+        border: none;
+    }
+    
+    .shipTrackBlock{
+        margin-top: 10rem;
+        margin-left: 3%;
+        margin-right: 3%;
+        border-radius: 0.5rem;
+        background-color: #FFFFFF;
+        padding: 1rem;
+        height: fit-content;
+    }
+    .formContent{
+        display:block;
+    }
+    .formContent li {
+        display:block;
+        padding: 2px;
+    }
+    .submit{
+        width: 100%;
+    }
+    .submitBtn{
+        width: 100%;
     }
 }
